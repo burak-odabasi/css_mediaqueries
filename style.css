@@ -7,7 +7,7 @@ body {
 }
 
 .subtitle {
-  font-size: 4px;
+  font-size: 4rem;
 }
 
 /* @media all and (max-width: 500px) {
@@ -25,5 +25,21 @@ body {
 @media print {
   body {
     color: limegreen;
+  }
+}
+
+@media (orientation: landscape) {
+  .title {
+    color: green;
+  }
+}
+@media (orientation: landscape) and (max-width: 600px) {
+  .subtitle {
+    color: yellow;
+  }
+}
+@media (orientation: portrait), (max-width: 600px) {
+  .title {
+    color: rgb(40, 221, 209);
   }
 }
