@@ -1,0 +1,29 @@
+body {
+  color: red;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 4px;
+}
+
+/* @media all and (max-width: 500px) {
+  body {
+    color: blueviolet;
+  }
+} */
+
+@media (max-width: 500px) {
+  body {
+    color: blueviolet;
+  }
+}
+
+@media print {
+  body {
+    color: limegreen;
+  }
+}
